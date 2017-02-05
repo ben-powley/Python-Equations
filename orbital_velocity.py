@@ -1,5 +1,4 @@
 import math
-import numpy
 
 r = input("Orbit: ")
 
@@ -9,6 +8,6 @@ M = 5.97 * (10 ** 24)
 mu = G * M
 r = R + r
 
-v = numpy.sqrt(mu / r)
+v = math.sqrt(mu / r)
 
 print("Orbital Velocity: " + str(v))
